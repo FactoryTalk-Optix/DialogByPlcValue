@@ -3,8 +3,8 @@ This example shows how to open a specific DialogBox from a Tag (Model or PLC)
 
 ## Instructions
 - Browse to `UI/MainWindow/DialogTrigger` and set the input variable that receives the trigger
-	- This variable can be both a Model variable or a PLC tag, in case of PLC tag the VariableSynchronizer is automatically executed
-- Copy/Paste the `DialogValueX` NodePointer, each variable correspond to a value from the PLC	
+	- This variable can be both a Model variable or a PLC tag, in the case of a PLC tag the VariableSynchronizer is automatically executed
+- Copy/Paste the `DialogValueX` NodePointer, each variable corresponds to a value from the PLC	
 	- Tag Value: 1 -> DialogValue1
 	- Tag Value: 2 -> DialogValue2
 	- etc...
